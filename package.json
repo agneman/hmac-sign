@@ -1,6 +1,6 @@
 {
   "name": "hmac-sign",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Simple HMAC signing utility",
   "main": "sign.js",
   "dependencies": {
@@ -23,5 +23,6 @@
   "bugs": {
     "url": "https://github.com/agneman/hmac-sign/issues"
   },
-  "homepage": "https://github.com/agneman/hmac-sign#readme"
+  "homepage": "https://github.com/agneman/hmac-sign#readme",
+  "bin": {"hmac-sign": "sign.js"}
 }

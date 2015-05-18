@@ -6,8 +6,8 @@ Simple utility to sign and verify data using HMAC signatures.
 
 Sign a file
 
-`node sign.js <key file> <file>`
+`hmac-sign <key file> <file>`
 
 Verify a signature
 
-`node sign.js -v <signature file> <key file> <file>`
+`hmac-sign -v <signature file> <key file> <file>`

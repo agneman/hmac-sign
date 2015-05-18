@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 var argv = require('minimist')(process.argv.slice(2));
 var fs = require('fs');
 var Signer = require('./Signer');
@@ -22,7 +24,7 @@ function compare_hmac_from_file(file_name, hmac) {
 }
 
 if (!key_file_name || !file_name) {
-  console.log("Usage: node sign.js [-v <signature>] <key> <file>");
+  console.log("Usage: hmac-sign [-v <signature>] <key> <file>");
   process.exit(1);
 }
 
