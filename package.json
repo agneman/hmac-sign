@@ -1,6 +1,6 @@
 {
   "name": "hmac-sign",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Simple HMAC signing utility",
   "main": "sign.js",
   "dependencies": {
