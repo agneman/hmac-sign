@@ -1,6 +1,6 @@
 {
   "name": "hmac-sign",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Simple HMAC signing utility",
   "main": "sign.js",
   "dependencies": {
@@ -15,5 +15,13 @@
     "signing"
   ],
   "author": "Agne Brink",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/agneman/hmac-sign.git"
+  },
+  "bugs": {
+    "url": "https://github.com/agneman/hmac-sign/issues"
+  },
+  "homepage": "https://github.com/agneman/hmac-sign#readme"
 }
