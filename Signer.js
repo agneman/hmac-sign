@@ -1,4 +1,4 @@
-var crypto = require('crypto');
+var crypto = require("crypto");
 
 
 var Signer = function (key, algorithm) {
@@ -16,9 +16,9 @@ Signer.prototype.verify = function (stream, hmac, callback) {
 
 function sign (key, algorithm, stream, callback) {
   var hmac = crypto.createHmac(algorithm, key);
-  hmac.setEncoding('hex');
+  hmac.setEncoding("hex");
   stream.pipe(hmac);
-  stream.on('end', function() {
+  stream.on("end", function() {
     callback(hmac.read());
   });
 }
